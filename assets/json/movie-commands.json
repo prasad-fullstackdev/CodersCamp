@@ -1,0 +1,6 @@
+[
+    {
+        "commandName": "SimpleMovieCommad",
+        "htmlText": "&lt;!doctype html&gt;\n&lt;html lang='en'&gt;\n&lt;head&gt;\n       &lt;title&gt;&lt;/title&gt;\n        &lt;/head&gt;\n        &lt;body&gt;\n        &lt;header&gt;\n            |\n        &lt;/header&gt;\n        &lt;/body&gt;\n        &lt;/html&gt;\n        @@@\n       # Lines started with # sign are comments and ignored by movie parser\n        prompt: Hello world\n        # Use ::: separator to create outline item for current action\n        type: Hello world ::: Typing “Hello world”\n       wait: 1000\n        # Passing command options as JS object\n        tooltip: {text: 'Sample tooltip', wait: 2000}\n        wait: 600\n        # Perform CodeMirror pre-defined command\n        run: {command: 'goWordLeft', times: 2} ::: Move word left\n        # Perform CodeMirror pre-defined command\n       run: {command: 'selectAll', times: 1} ::: selectAll'\n"
+    }
+]

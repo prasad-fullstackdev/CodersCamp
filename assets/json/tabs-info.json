@@ -1,0 +1,44 @@
+[
+    {
+        "tabId": 1,
+        "tabCode": "code-formatter",
+        "title": "Code Formatter",
+        "description": "Try using Code Formatter",
+        "tooltip": "Try using Code Formatter"
+    },
+    {
+        "tabId": 2,
+        "tabCode": "sql-formatter",
+        "title": "Sql Formatter",
+        "description": "Try using Sql Formatter",
+        "tooltip": "Try using Sql Formatter"
+    },
+    {
+        "tabId": 3,
+        "tabCode": "json-viewer",
+        "title": "Json Viewer",
+        "description": "Try using Json Viewer",
+        "tooltip": "Try using Json Viewer"
+    },
+    {
+        "tabId": 4,
+        "tabCode": "realtime-editor",
+        "title": "Realtime Editor",
+        "description": "Try using Realtime Editor",
+        "tooltip": "Try using Realtime Editor"
+    },
+    {
+        "tabId": 4,
+        "tabCode": "cm-demos",
+        "title": "Demos",
+        "description": "Try using Demos",
+        "tooltip": "Try using Demos"
+    },
+    {
+        "tabId": 5,
+        "tabCode": "speech",
+        "title": "Speech",
+        "description": "Try using Speech",
+        "tooltip": "Try using Speech"
+    }
+]

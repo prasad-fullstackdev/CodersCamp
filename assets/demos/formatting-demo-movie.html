@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>CodeMirror Movie</title>
+	<link rel="stylesheet" href="../../assets/cm/css/codemirror.css">
+	<link rel="stylesheet" href="../../assets/cm/js/addon/movie/movie.css">
+
+	<script src="../../assets/cm/js/codemirror.js"></script>
+	<script src="../../assets/cm/js/addon/movie/movie.js"></script>
+	<script src="../../assets/cm/js/addon/emmet.js"></script>
+</head>
+
+<body>
+
+	<textarea id="emmet-demo-movie" name="emmet-demo-movie">
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;title&gt;Demo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+|
+&lt;/body&gt;
+&lt;/html&gt;
+@@@
+type:if ('this_is'==/an_example/){of_beautifier();}else{var a=b?(c%d):e[f];} ::: “Typing...”
+tooltip: Select document and Press (Alt + Shift + F) to format ::: “Showing Tooltip...”
+run: {command: 'selectAll', times: 1, beforeDelay: 1000} ::: “Selecting document...”
+run: {command: 'autoFormatSelection', times: 1, beforeDelay: 1000} ::: Formatting document...”
+</textarea>
+
+	<script>
+		var movie = CodeMirror.movie('emmet-demo-movie');
+		movie.play();
+	</script>
+</body>
+
+</html>

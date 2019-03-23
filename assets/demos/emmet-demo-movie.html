@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>CodeMirror Movie</title>
+	<link rel="stylesheet" href="../../assets/cm/css/codemirror.css">
+	<link rel="stylesheet" href="../../assets/cm/js/addon/movie/movie.css">
+
+	<script src="../../assets/cm/js/codemirror.js"></script>
+	<script src="../../assets/cm/js/addon/movie/movie.js"></script>
+	<script src="../../assets/cm/js/addon/emmet.js"></script>
+</head>
+
+<body>
+
+	<textarea id="emmet-demo-movie" name="emmet-demo-movie">
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;title&gt;Demo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+|
+&lt;/body&gt;
+&lt;/html&gt;
+@@@
+tooltip: Type CSS-like abbreviation
+type: ul#nav&gt;li.item$*4&gt;a{Item $}
+wait: 500
+tooltip: Run “Expand Abbreviation” action to expand it into HTML ::: “Expand Abbreviation” (Tab key)
+wait: 500
+run: emmet.expand_abbreviation
+wait: 500
+tooltip: Traverse between important code points with “Next/Previous Edit Point” action ::: “Next Edit Point” (Ctrl-Alt-→) &lt;br /&gt; “Previous Edit Point” (Ctrl-Alt-←)
+wait: 500
+run: {command: 'emmet.next_edit_point', times: 7}
+wait: 500
+tooltip: Select tags with “Balance” action ::: “Balance” (Cmd-D)
+run: {command: 'emmet.balance_outward', times: 3}
+wait: 500
+moveTo: 102
+tooltip: Select important parts with “Select Next/Previous Item” action ::: “Select Next Item” (Shift-Cmd-.) &lt;br /&gt; “Select Previous Item” (Shift-Cmd-,)
+run: {command: 'emmet.select_next_item', times: 7, beforeDelay: 300}
+wait: 500
+moveTo: 95
+wait: 500
+tooltip: Quickly comment full tag with “Toggle Comment” action ::: “Toggle Comment” (Cmd-/)
+run: {command: 'emmet.toggle_comment', times: 2, beforeDelay: 500}
+</textarea>
+
+	<script>
+		var movie = CodeMirror.movie('emmet-demo-movie');
+		movie.play();
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+[
+    {
+        "themeName": "3024-day",
+        "themeUrl": "assets/cm/css/themes/3024-day.css"
+    },
+    {
+        "themeName": "3024-night",
+        "themeUrl": "assets/cm/css/themes/3024-night.css"
+    },
+    {
+        "themeName": "ambiance",
+        "themeUrl": "assets/cm/css/themes/ambiance.css"
+    },
+    {
+        "themeName": "base16-dark",
+        "themeUrl": "assets/cm/css/themes/base16-dark.css"
+    },
+    {
+        "themeName": "bespin",
+        "themeUrl": "assets/cm/css/themes/bespin.css"
+    },
+    {
+        "themeName": "base16-light",
+        "themeUrl": "assets/cm/css/themes/base16-light.css"
+    },
+    {
+        "themeName": "blackboard",
+        "themeUrl": "assets/cm/css/themes/blackboard.css"
+    },
+    {
+        "themeName": "cobalt",
+        "themeUrl": "assets/cm/css/themes/cobalt.css"
+    },
+    {
+        "themeName": "colorforth",
+        "themeUrl": "assets/cm/css/themes/colorforth.css"
+    },
+    {
+        "themeName": "dracula",
+        "themeUrl": "assets/cm/css/themes/dracula.css"
+    },
+    {
+        "themeName": "duotone-dark",
+        "themeUrl": "assets/cm/css/themes/duotone-dark.css"
+    },
+    {
+        "themeName": "duotone-light",
+        "themeUrl": "assets/cm/css/themes/duotone-light.css"
+    },
+    {
+        "themeName": "eclipse",
+        "themeUrl": "assets/cm/css/themes/eclipse.css"
+    },
+    {
+        "themeName": "elegant",
+        "themeUrl": "assets/cm/css/themes/elegant.css"
+    },
+    {
+        "themeName": "erlang-dark",
+        "themeUrl": "assets/cm/css/themes/erlang-dark.css"
+    },
+    {
+        "themeName": "hopscotch",
+        "themeUrl": "assets/cm/css/themes/hopscotch.css"
+    },
+    {
+        "themeName": "icecoder",
+        "themeUrl": "assets/cm/css/themes/icecoder.css"
+    },
+    {
+        "themeName": "isotope",
+        "themeUrl": "assets/cm/css/themes/isotope.css"
+    },
+    {
+        "themeName": "lesser-dark",
+        "themeUrl": "assets/cm/css/themes/lesser-dark.css"
+    },
+    {
+        "themeName": "liquibyte",
+        "themeUrl": "assets/cm/css/themes/liquibyte.css"
+    },
+    {
+        "themeName": "material",
+        "themeUrl": "assets/cm/css/themes/material.css"
+    },
+    {
+        "themeName": "mbo",
+        "themeUrl": "assets/cm/css/themes/mbo.css"
+    },
+    {
+        "themeName": "mdn-like",
+        "themeUrl": "assets/cm/css/themes/mdn-like.css"
+    },
+    {
+        "themeName": "midnight",
+        "themeUrl": "assets/cm/css/themes/midnight.css"
+    },
+    {
+        "themeName": "monokai",
+        "themeUrl": "assets/cm/css/themes/monokai.css"
+    },
+    {
+        "themeName": "neat",
+        "themeUrl": "assets/cm/css/themes/neat.css"
+    },
+    {
+        "themeName": "neo",
+        "themeUrl": "assets/cm/css/themes/neo.css"
+    },
+    {
+        "themeName": "night",
+        "themeUrl": "assets/cm/css/themes/night.css"
+    },
+    {
+        "themeName": "panda-syntax",
+        "themeUrl": "assets/cm/css/themes/panda-syntax.css"
+    },
+    {
+        "themeName": "paraiso-dark",
+        "themeUrl": "assets/cm/css/themes/paraiso-dark.css"
+    },
+    {
+        "themeName": "paraiso-light",
+        "themeUrl": "assets/cm/css/themes/paraiso-light.css"
+    },
+    {
+        "themeName": "pastel-on-dark",
+        "themeUrl": "assets/cm/css/themes/pastel-on-dark.css"
+    },
+    {
+        "themeName": "railscasts",
+        "themeUrl": "assets/cm/css/themes/railscasts.css"
+    },
+    {
+        "themeName": "rubyblue",
+        "themeUrl": "assets/cm/css/themes/rubyblue.css"
+    },
+    {
+        "themeName": "seti",
+        "themeUrl": "assets/cm/css/themes/seti.css"
+    },
+    {
+        "themeName": "solarized",
+        "themeUrl": "assets/cm/css/themes/solarized.css"
+    },
+    {
+        "themeName": "the-matrix",
+        "themeUrl": "assets/cm/css/themes/the-matrix.css"
+    },
+    {
+        "themeName": "tomorrow-night-bright",
+        "themeUrl": "assets/cm/css/themes/tomorrow-night-bright.css"
+    },
+    {
+        "themeName": "tomorrow-night-eighties",
+        "themeUrl": "assets/cm/css/themes/tomorrow-night-eighties.css"
+    },
+    {
+        "themeName": "ttcn",
+        "themeUrl": "assets/cm/css/themes/ttcn.css"
+    },
+    {
+        "themeName": "twilight",
+        "themeUrl": "assets/cm/css/themes/twilight.css"
+    },
+    {
+        "themeName": "vibrant-ink",
+        "themeUrl": "assets/cm/css/themes/vibrant-ink.css"
+    },
+    {
+        "themeName": "xq-dark",
+        "themeUrl": "assets/cm/css/themes/xq-dark.css"
+    },
+    {
+        "themeName": "xq-light",
+        "themeUrl": "assets/cm/css/themes/xq-light.css"
+    },
+    {
+        "themeName": "yeti",
+        "themeUrl": "assets/cm/css/themes/yeti.css"
+    },
+    {
+        "themeName": "zenburn",
+        "themeUrl": "assets/cm/css/themes/zenburn.css"
+    }
+]
