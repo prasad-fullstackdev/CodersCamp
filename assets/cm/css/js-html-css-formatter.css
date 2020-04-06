@@ -1,0 +1,44 @@
+.main_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #fff;
+}
+.js_html_css_formatter_div .container_title{
+    position: relative;
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 2;
+    padding: 5px;
+}
+.buttons_container{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.btn-editor{
+    background-color: #0178d4;
+    border: 0;
+    outline: none;
+    padding: 5px;
+    border-radius: 1px;
+    color: #fff;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.js_html_css_formatter_div{
+    padding: 10px;
+    flex-grow: 1;
+    width: 50%;
+}
+
+.CodeMirror {
+    border: 0;
+    box-shadow: 0px 0px 2px #666;
+    height: 90vh;
+}

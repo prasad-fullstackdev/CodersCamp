@@ -1,2 +1,0 @@
-# coderscamp
-Coder's Camp

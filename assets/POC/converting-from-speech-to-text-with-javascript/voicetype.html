@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Voice Controlled Notes App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices -->
+
+        <select id="voiceSelect"></select>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Only used for the demos ads. Please ignore and remove. -->
+    <script>
+        $(document).ready(function () {
+            var voices, utterance;
+            function populateVoiceList() {
+                if (typeof speechSynthesis === 'undefined') {
+                    return;
+                }
+
+                voices = speechSynthesis.getVoices();
+
+                for (i = 0; i < voices.length; i++) {
+                    var option = document.createElement('option');
+                    option.textContent = voices[i].name + ' (' + voices[i].lang + ')';
+
+                    if (voices[i].default) {
+                        option.textContent += ' -- DEFAULT';
+                    }
+
+                    option.setAttribute('data-lang', voices[i].lang);
+                    option.setAttribute('data-name', voices[i].name);
+                    document.getElementById("voiceSelect").appendChild(option);
+                }
+
+                // speechSynthesis.addEventListener('voiceschanged', speakVoice);
+            }
+
+            function speakVoice(e) {
+                utterance = new SpeechSynthesisUtterance("This is cool");
+                utterance.voice = voices[1];
+                speechSynthesis.speak(utterance);
+            };
+
+            populateVoiceList();
+            if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
+                speechSynthesis.onvoiceschanged = speakVoice;
+            }
+        });
+    </script>
+
+</body>
+
+</html>
